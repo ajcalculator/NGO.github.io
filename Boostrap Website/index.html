@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NGO</title>
+  <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,200&family=PT+Sans+Narrow&family=Peddana&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,200&family=PT+Sans+Narrow&family=Peddana&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Josefin+Sans:ital,wght@1,100;1,200&family=PT+Sans+Narrow&family=Peddana&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#font
+			{
+				font-family: 'Josefin Sans', sans-serif;
+                font-family: 'Peddana', serif;
+                font-family: 'PT Sans Narrow', sans-serif;
+			}
+			#card_font
+			{
+				font-family: 'Josefin Sans', sans-serif;
+                font-family: 'Peddana', serif;
+                font-family: 'PT Sans Narrow', sans-serif;
+                font-family: 'Sansita Swashed', cursive;
+
+			}
+
+		   .carousel-inner img 
+		   {
+                width: 100%;
+                height: 100%;
+            }
+            
+        </style>
+</head>
+<body>
+  <header>
+  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a href="" class="navbar-brand text-warning font-weight-bold">NGO</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="text-center">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto my-2">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About US</a>
+      </li>
+      <li class="nav-item">
+      	<a href="#"><button class="text-capitalize btn btn-primary" id="donate">Donate Now</button></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+    <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img.jpg" alt="Norway">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img1.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="images/Services.jpg" alt="New York">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  	
+  </header>
+
+ <section class="container-fluid">
+ 	<h1 class="text-center text-capitalize pt-5">About Us</h1>
+ 	<hr class="w-25 mx-auto  pt-5">
+ 	<div class="row mb-5">
+ 		<div class="col-lg-6 col-sm-6 col-12">
+ 			<img src="images/img.jpg" class="img-fluid">
+ 		</div>
+ 		<div class="col-lg-6 col-lg-6 col-sm-6 col-12">
+ 			<h1 class="text-center text-capitalize ">Who Am i</h1>
+ 			<hr>
+ 			<p id="font">Adds indicators for the carousel. These are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing) Adds a CSS transition and animation effect when sliding from one item to the next. Remove this class if you do not want this effect</p>
+ 			<button class="btn bg-primary text-white">Wann Know Me</button>
+ 		</div>
+ 	</div>
+ </section>
+
+
+ <section>
+ 	<div class="container">
+ 		<h1 class="text-center pt-5">Services</h1>
+ 		<div class="row text-center mb-5">
+ 			<div class="col-sm-4 ">
+ 				<div class="card" >
+                   <img class="card-img-top" src="images/img.jpg" alt="Card image">
+                   <div class="card-body">
+                      <h4 class="card-title">Ajinkya Nikam</h4>
+                        <p class="card-text" id="card_font" >"I'm working as a Web Developer "</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                   </div>
+                </div>
+ 			</div>
+
+ 			<div class="col-sm-4">
+ 				<div class="card" >
+                   <img class="card-img-top" src="images/img.jpg" alt="Card image">
+                   <div class="card-body">
+                      <h4 class="card-title">Nivedita Nikam</h4>
+                        <p class="card-text" id="card_font">"My Professsion is a Doctor."</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                   </div>
+                </div>
+ 		    </div>
+
+ 		    <div class="col-sm-4">
+ 				<div class="card" >
+                   <img class="card-img-top" src="images/img.jpg" alt="Card image">
+                   <div class="card-body">
+                      <h4 class="card-title">Manohar Nikam</h4>
+                        <p class="card-text" id="card_font">"My Professsion is a Doctor."</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                   </div>
+                </div>
+ 	        </div>
+
+      </div>
+  </div>
+ </section>
+
+     <article class="bg-primary text-center text-white py-5">
+     	<div>
+     	<h3 class="display-4" style="font-family: 'Crimson Text', serif;
+          font-family: 'Sansita Swashed', cursive;">91+ 1236547891
+        </h3>
+     	<p>If U want the best service Call Us now..!</p>
+     	<button class="btn btn-warning" >Contact Us Now</button>
+     	</div>
+     </article>
+
+     <section>
+     	<div class="container mb-5" >
+     		<h1 class="text-center pt-5">Gallary</h1>
+     		<hr class="w-25 mx-auto pt-5">
+
+     		<div class="row">
+     			<div class="col-sm-4" >
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     		</div>
+     		<div class="row mt-3">
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     		</div>
+     		<div class="row mt-3">
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     		</div>
+     		<div class="row mt-3">
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     			<div class="col-sm-4">
+     				<img src="images/img.jpg" class="img-fluid">
+     			</div>
+     		</div>
+     	</div>
+     </section>
+
+     <section class="bg-primary">
+     	<article class="bg-primary pb-5 py-4">
+     	   <div class="text-center text-white">
+     		  <h3 class="display-4">Want to Join</h3>
+     		  <p>Be a part of Our Family</p>
+     		  <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Register Now</button>
+     	   </div>
+
+     	   <!-- The Modal -->
+                 <div class="modal fade" id="myModal">
+                 <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+      
+          <!-- Modal Header -->
+                 <div class="modal-header">
+                    <h4 class="modal-title">SignUp</h4>
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+        
+          <!-- Modal body -->
+                 <div class="modal-body">
+                  <form action="/action_page.php">
+                    <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+                 </div>
+              <div class="form-group">
+                 <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+              </div>
+              <div class="form-group">
+                    <label for="email">Confirm Password:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+              </div>
+              <div class="form-group">
+                    <label for="email">Mobile No:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+                 </div>
+
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+              </div>
+             <button type="submit" class="btn btn-primary">Submit</button>
+         </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+       </article>
+     </section>  
+
+
+     <!----Contact US----->
+
+     <section>
+     	<div class=" mt-5 mb-5">
+     		<div class="text-center">
+     		<h3 class="display-4">Contact Us</h3>
+     		<hr class="w-25 mx-auto">
+     		</div>
+     		<div class="w-50 mx-auto">
+               <form action="/action_page.php">
+                 <div class="form-group">
+                     <b><label for="name">Your Name:</label></b>
+                     <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                </div>
+               <div class="form-group">
+                     <label for="email">Email:</label>
+                     <input type="email" class="form-control" placeholder="Enter Email" id="email">
+               </div>
+               <div class="form-group">
+                     <label for="email">Mobile No:</label>
+                     <input type="number" class="form-control" placeholder="Enter Mobile NO" id="mobile">
+               </div>
+               <div class="form-group">
+               	<label>TextArea</label>
+               	<textarea class="form-control"></textarea>
+               </div>
+
+               <div class="form-group form-check">
+                     <label class="form-check-label">
+                     <input class="form-check-input" type="checkbox"> Remember me</label>
+               </div>
+
+               <button type="submit" class="btn btn-primary">Submit</button>
+           </form>
+           </div>
+     		
+     	</div>
+     	
+     </section>   
+
+
+     <footer>
+     	<div class="bg-dark text-white text-center mx-auto">
+     	<p> @copyright NGO.com 2020 </p>
+     	</div>
+     </footer>
+
+  
+  
+   <!-- jQuery library -->
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+                <!-- Popper JS -->
+                   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+                <!-- Latest compiled JavaScript -->
+                   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
